@@ -1,0 +1,97 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Cursova_Ships/1.0.0": {
+        "dependencies": {
+          "HelixToolkit.Wpf": "2.22.0"
+        },
+        "runtime": {
+          "Cursova_Ships.dll": {}
+        }
+      },
+      "HelixToolkit/2.22.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HelixToolkit.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "HelixToolkit.Wpf/2.22.0": {
+        "dependencies": {
+          "HelixToolkit": "2.22.0"
+        },
+        "runtime": {
+          "lib/net45/HelixToolkit.Wpf.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Memory/4.5.4": {}
+    }
+  },
+  "libraries": {
+    "Cursova_Ships/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelixToolkit/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nNj48FSGZvS9yzCC0dE0alpcRIpHQ5Dz5A/EhHjFJHhFo/xaoZ8u4OkP7v0ypSpV48M5X9qYtecN3p/ooIRyLg==",
+      "path": "helixtoolkit/2.22.0",
+      "hashPath": "helixtoolkit.2.22.0.nupkg.sha512"
+    },
+    "HelixToolkit.Wpf/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hCN5xBB2kqdwrZtd/ZaKycKXREZLYqMziHePPDelEuYfPO0O+cNX7qBI4Wi9vLBZ9w3HmSEOH2PaHX5tH85DGw==",
+      "path": "helixtoolkit.wpf/2.22.0",
+      "hashPath": "helixtoolkit.wpf.2.22.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    }
+  }
+}
